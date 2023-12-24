@@ -24,12 +24,12 @@ const app = async () => {
     for(let info of details){
         await main(info)
     }
-    setInterval(function() {
-        for(let info of details){
-            main(info)
-        }
-        console.log("Interval executed");
-      }, 600000);
+    // setInterval(function() {
+    //     for(let info of details){
+    //         main(info)
+    //     }
+    //     console.log("Interval executed");
+    //   }, 600000);
 }
 
 app()
